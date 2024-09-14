@@ -3,11 +3,10 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes, faImage, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faImage } from '@fortawesome/free-solid-svg-icons';
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { DownloadIcon } from 'lucide-react';
-import { ArrowDownOnSquareIcon } from '@heroicons/react/16/solid';
+
 
 
 
@@ -114,8 +113,9 @@ const ChatAssistant: React.FC = () => {
     }
   };
 
-  const displayLargeImage = (imageUrl: string) => {
+  const displayLargeImage = (imageurl: string) => {
     // Implementation for displaying large image
+    imageurl
   };
 
   return (
